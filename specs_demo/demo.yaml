@@ -134,7 +134,7 @@ amp_sf_soln:
     ndum: 4
     w_dict: {amp: 4, bias: 4}
     intent_dict: {amp: 'lvt', bias: 'lvt'}
-    fg_dict: {amp: 16, bias: 12}
+    fg_dict: {amp: 16, bias: 24}
     show_pins: True
 
   testbenches:
