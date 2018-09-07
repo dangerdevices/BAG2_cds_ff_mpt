@@ -19,3 +19,6 @@
 [submodule "cds_ff_mpt"]
 	path = cds_ff_mpt
 	url = https://github.com/ucb-art/cds_ff_mpt.git
+[submodule "bag_advanced_examples"]
+	path = bag_advanced_examples
+	url = http://github.com/ucb-art/bag_advanced_examples
