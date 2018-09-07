@@ -1,6 +1,14 @@
 # BAG2_cds_ff_mpt
 BAG2 setup for cds_ff_mpt (cadence generic PDK for finfet and multi-patterned technology)
 
+## Python setup
+
+BAG2 works with Python 3 (Python 3.6+ is recommended).  We strongly recommend using Anaconda Python in a custom install location, as it contains most required packages and offer simple installation process.  In addition to the default Anaconda packages, the following needs to be installed/changed (through either `conda` or `pip`):
+
+1. shapely
+2. rtree 
+3. tornado (downgrade to 4.5.3 for the bootcamp demo).
+
 ## Installation
 1. Download cds_ff_mpt PDK from [Cadence Support](https://support.cadence.com) 
 and install it.
