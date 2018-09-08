@@ -3,7 +3,9 @@ BAG2 setup for cds_ff_mpt (cadence generic PDK for finfet and multi-patterned te
 
 ## Python setup
 
-BAG2 works with Python 3 (Python 3.6+ is recommended).  We strongly recommend using Anaconda Python in a custom install location, as it contains most required packages and offer simple installation process.  In addition to the default Anaconda packages, the following needs to be installed/changed (through either `conda` or `pip`):
+BAG2 works with Python 3 (Python 3.6+ is recommended).  We strongly recommend using Anaconda Python in a custom 
+install location, as it contains most required packages and offer simple installation process.  In addition to 
+the default Anaconda packages, the following needs to be installed/changed (through either `conda` or `pip`):
 
 1. shapely
 2. rtree 
@@ -18,24 +20,29 @@ and install it.
     ```
     $ git clone https://github.com/ucb-art/BAG2_cds_ff_mpt.git
     ```
-3. (non-BWRC users) Update the following symbolic links to point to the cds_ff_mpt PDK installation location.
-   For BWRC useres, the links are already pointed to the correct path.
-
-   PDK -> point to cds_ff_mpt_v_0.3 folder
-
-4. (non-BWRC users) Update .cshrc/.bashrc to point to your tools locations.
+3. (non-BWRC users) Update the symbolic link `cds_ff_mpt/workspace_setup/PDK` to point to the cds_ff_mpt 
+   PDK installation location; the `cds_ff_mpt_v_0.3` folder.
+   
+4. (non-BWRC users) Update `cds_ff_mpt/workspace_setup/{.cshrc, .bashrc}` to point to your tools locations.
    The tools needed by this demo are:
 
    - Virtuoso ICADV 12.3 (or 12.1)
    - PVS 15.1
    
-5. (non-BWRC users) Update .cshrc_bag/.bashrc_bag to point to the Anaconda Python installation location used to
-   run BAG.  See BAG_framework documentation on how to install Anaconda Python for BAG.
+5. (non-BWRC users) Update `cds_ff_mpt/workspace_setup/{.cshrc_bag, .bashrc_bag}` to point to the Anaconda 
+   Python installation location used to run BAG.  See BAG_framework documentation on how to install Anaconda 
+   Python for BAG.
 
-6. (non-BWRC users) Update cds_ff_mpt/corners_setup.sdb, which sets up model files and process corners for BAG,
+6. (non-BWRC users) Update `cds_ff_mpt/corners_setup.sdb`, which sets up model files and process corners for BAG,
    to point to the correct model file location.
+   
+7. (non-BWRC users) in `cds_ff_mpt/workspace_setup/.cdsinit`, change the `editor` variable to point to your
+   variable editor.
+   
+8. (non-BWRC users) in `cds_ff_mpt/workspace_setup/.cdsinit.personal`, in the last command where it sets the
+   simulation data directory (the `projectDir` variable), change it to a suitable location.
 
-7. Clone all dependent git submodules.  Run the following commands:
+9. Clone all dependent git submodules.  Run the following commands:
 
     ```
     $ git submodule init
