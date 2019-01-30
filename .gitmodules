@@ -1,7 +1,7 @@
 [submodule "BAG_framework"]
 	path = BAG_framework
 	url = git@github.com:dangerdevices/BAG_framework.git
-        branch = python-3.4
+	branch = python-3.4
 [submodule "laygo"]
 	path = laygo
 	url = git@github.com:dangerdevices/laygo.git
@@ -20,6 +20,7 @@
 [submodule "cds_ff_mpt"]
 	path = cds_ff_mpt
 	url = git@github.com:dangerdevices/cds_ff_mpt.git
+	branch = dd
 [submodule "bag_advanced_examples"]
 	path = bag_advanced_examples
 	url = git@github.com:dangerdevices/bag_advanced_examples.git
