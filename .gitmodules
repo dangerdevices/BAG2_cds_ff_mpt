@@ -1,24 +1,25 @@
 [submodule "BAG_framework"]
 	path = BAG_framework
-	url = https://github.com/ucb-art/BAG_framework.git
+	url = git@github.com:dangerdevices/BAG_framework.git
+        branch = python-3.4
 [submodule "laygo"]
 	path = laygo
-	url = https://github.com/ucb-art/laygo.git
+	url = git@github.com:dangerdevices/laygo.git
 [submodule "BAG2_TEMPLATES_EC"]
 	path = BAG2_TEMPLATES_EC
-	url = https://github.com/ucb-art/BAG2_TEMPLATES_EC.git
+	url = git@github.com:dangerdevices/BAG2_TEMPLATES_EC.git
 [submodule "bag_testbenches_ec"]
 	path = bag_testbenches_ec
-	url = https://github.com/ucb-art/bag_testbenches_ec.git
+	url = git@github.com:dangerdevices/bag_testbenches_ec.git
 [submodule "BAG_XBase_demo"]
 	path = BAG_XBase_demo
-	url = https://github.com/ucb-art/BAG_XBase_demo.git
+	url = git@github.com:dangerdevices/BAG_XBase_demo.git
 [submodule "bag_serdes_ec"]
 	path = bag_serdes_ec
-	url = https://github.com/ucb-art/bag_serdes_ec.git
+	url = git@github.com:dangerdevices/bag_serdes_ec.git
 [submodule "cds_ff_mpt"]
 	path = cds_ff_mpt
-	url = https://github.com/ucb-art/cds_ff_mpt.git
+	url = git@github.com:dangerdevices/cds_ff_mpt.git
 [submodule "bag_advanced_examples"]
 	path = bag_advanced_examples
-	url = https://github.com/ucb-art/bag_advanced_examples
+	url = git@github.com:dangerdevices/bag_advanced_examples.git
