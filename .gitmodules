@@ -8,6 +8,7 @@
 [submodule "BAG2_TEMPLATES_EC"]
 	path = BAG2_TEMPLATES_EC
 	url = git@github.com:dangerdevices/BAG2_TEMPLATES_EC.git
+	branch = dd
 [submodule "bag_testbenches_ec"]
 	path = bag_testbenches_ec
 	url = git@github.com:dangerdevices/bag_testbenches_ec.git
