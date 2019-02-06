@@ -18,7 +18,8 @@
 	url = https://github.com/ucb-art/bag_serdes_ec.git
 [submodule "cds_ff_mpt"]
 	path = cds_ff_mpt
-	url = https://github.com/ucb-art/cds_ff_mpt.git
+	url = git@github.com:dangerdevices/cds_ff_mpt.git
+	branch = dd-vanilla
 [submodule "bag_advanced_examples"]
 	path = bag_advanced_examples
 	url = https://github.com/ucb-art/bag_advanced_examples
